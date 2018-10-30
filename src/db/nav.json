@@ -1,0 +1,8 @@
+{
+    "rootnav": [
+        {"nav":"/","text":"Home"},
+        {"nav":"/health-insurance","text":"Health Insurance"},
+        {"nav":"/wellness","text":"Wellness"},
+        {"nav":"/care","text":"Care"}    
+    ]
+}

@@ -1,0 +1,105 @@
+{
+	"authUser": {
+		"partyId": "23234093993",
+		"firstName": "Karen",
+		"lastName": "Xavier",
+		"loginId": "charles01",
+		"lastLogin": "10/24/2018 - 09:00:00"
+	},
+	"accessContracts": [{
+			"member": {
+				"partyId": "23234093993",
+				"firstName": "Karen",
+				"lastName": "Xavier"
+			},
+			"contract": {
+				"contractNum": "H3827272",
+				"contractType": "Health",
+				"effectiveDate": "01/01/2018"
+			},
+			"personalizationRules": {
+				"page": [{
+						"nameId": "home",
+						"widgets": [{
+								"widgetId": "home.today",
+								"display": false
+							},
+							{
+								"widgetId": "home.healthinstr",
+								"display": false
+							},
+							{
+								"widgetId": "home.carecircle",
+								"display": true
+							},
+							{
+								"widgetId": "home.wellness",
+								"display": true
+							}
+						]
+					},
+					{
+						"nameId": "healthinstr",
+						"widgets": [{
+								"widgetId": "healthinstr.claims",
+								"display": true
+							},
+							{
+								"widgetId": "healthinstr.benefits",
+								"display": true
+							}
+						]
+					}
+
+				]
+			}
+		},
+		{
+			"member": {
+				"partyId": "92823723232",
+				"firstName": "Scott",
+				"lastName": "Summers"
+			},
+			"contract": {
+				"contractNum": "H2393923",
+				"contractType": "Health",
+				"effectiveDate": "01/01/2018"
+			},
+			"personalizationRules": {
+				"page": [{
+						"nameId": "home",
+						"widgets": [{
+								"widgetId": "home.today",
+								"display": false
+							},
+							{
+								"widgetId": "home.healthinstr",
+								"display": true
+							},
+							{
+								"widgetId": "home.carecircle",
+								"display": false
+							},
+							{
+								"widgetId": "home.wellness",
+								"display": true
+							}
+						]
+					},
+					{
+						"nameId": "healthinstr",
+						"widgets": [{
+								"widgetId": "healthinstr.claims",
+								"display": true
+							},
+							{
+								"widgetId": "healthinstr.benefits",
+								"display": true
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

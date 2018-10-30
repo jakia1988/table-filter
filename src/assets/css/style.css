@@ -1,0 +1,23 @@
+.filter {width: 25%;background: #ddd6;}
+
+.filter h4 {
+    margin: 0;
+    text-align: left;
+    padding: 2%;
+}
+
+.filter ul {
+    list-style: none;
+    text-align: left;
+    padding: 2%;
+    margin: 0;
+}
+
+.filter ul li input {
+    margin-right: 2%;
+    float: left;
+}
+
+.filter ul li {
+    vertical-align: middle;
+}
